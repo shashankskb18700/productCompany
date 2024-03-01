@@ -1,0 +1,138 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300&family=Pacifico&family=Poppins:wght@600&family=Rubik+Maps&family=Shadows+Into+Light&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;0,600;1,200;1,500&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Pacifico&family=Poppins:wght@600&family=Rubik+Maps&family=Shadows+Into+Light&display=swap");
+
+.Auth {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+  color: rgb(255, 255, 255);
+  background-color: rgb(8, 8, 8);
+}
+
+.Auth-Form {
+  width: 40%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  font-family: "Hanken Grotesk";
+  color: black;
+  background-color: white;
+}
+.Form {
+  width: 80%;
+}
+
+.Auth-Input {
+  width: 100%;
+  height: 5rem;
+  display: flex;
+  align-items: center;
+
+  justify-content: space-between;
+}
+.Auth-Input input {
+  border: none;
+  width: 18rem;
+  border-bottom: 2px solid rgb(8, 8, 8);
+  color: rgb(8, 7, 7);
+  padding-bottom: 0.5em;
+  font-family: "Hanken Grotesk";
+  font-size: 1.1em;
+  background-color: rgb(255, 255, 255);
+}
+.Auth-Input label {
+  font-size: 1.3em;
+}
+
+.user-type {
+  width: 100%;
+  height: 1em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  cursor: pointer;
+  font-size: 1rem;
+}
+input:focus {
+  outline: none;
+}
+textarea:focus,
+input:focus {
+  outline: none;
+}
+
+.auth-button {
+  border: none;
+  width: 5rem;
+  height: 2rem;
+  cursor: pointer;
+  font-size: 1em;
+  transition: 0.7s;
+  background-color: rgb(8, 8, 8);
+  color: white;
+}
+.auth-button:hover {
+  background-color: grey;
+}
+
+.logo {
+  width: 60%;
+  text-align: center;
+  font-family: "Hanken Grotesk";
+  font-weight: 600;
+  font-size: 3.5rem;
+}
+.logo-mid {
+  background-color: white;
+  color: black;
+}
+.auth-button-container {
+  display: flex;
+  width: 97%;
+  justify-content: space-between;
+}
+
+@media (max-width: 400px) {
+  .logo {
+    width: 100vw;
+  }
+  .Auth {
+    flex-direction: column;
+  }
+  .Auth-Form {
+    width: 20em;
+  }
+  .Auth-Input input {
+    width: 15em;
+  }
+  .user-type {
+    text-align: center;
+    font-size: 0.7em;
+  }
+}
+
+@media (max-width: 550px) {
+  .Auth-Form {
+    width: 100vw;
+  }
+  .Auth {
+    flex-direction: column;
+  }
+  .Auth-Input input {
+    width: 11em;
+  }
+  .user-type {
+    font-size: 0.7em;
+  }
+}

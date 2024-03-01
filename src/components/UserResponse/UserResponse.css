@@ -1,0 +1,84 @@
+.user-response {
+  position: fixed;
+  bottom: 96px;
+  right: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  width: fit-content;
+  width: 25em;
+  height: 60vh;
+
+  z-index: 999;
+  background-color: rgb(248, 248, 248);
+  font-family: "Hanken Grotesk";
+}
+
+textarea {
+  width: 300px;
+  height: 150px;
+  resize: none;
+}
+.suggestion-top {
+  width: 90%;
+  padding: 0 0.9em 0 0.9em;
+  font-weight: 400;
+  border-bottom: 2px solid rgb(221, 220, 221);
+}
+.suggestion-mid {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 90%;
+}
+.suggestion-mid label {
+  width: 100%;
+}
+
+.suggestion-mid select {
+  width: 90%;
+  outline: none;
+}
+.suggestion-bottom {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: start;
+}
+
+.suggestion-bottom label {
+  display: flex;
+  align-items: flex-start;
+}
+
+.UserResponseFeedback-checkbox {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 90%;
+}
+.UserResponseFeedback-checkbox label {
+  padding-left: 0.7em;
+}
+
+.submitButton {
+  padding: 0 0.5em 0 0.5em;
+  background-color: rgb(108, 108, 108);
+  color: white;
+  border-radius: 0.2em;
+  margin-left: 13em;
+  justify-content: flex-end;
+  font-weight: 500;
+}
+textarea {
+  border: none;
+  border-radius: 0.5em;
+}
+select {
+  border: none;
+  border-radius: 0.5em;
+  width: 80%;
+  height: 2em;
+}

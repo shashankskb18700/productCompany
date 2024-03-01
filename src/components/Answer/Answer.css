@@ -1,0 +1,80 @@
+.Answer {
+  width: 80vw;
+  height: 30vw;
+  color: rgb(8, 8, 8);
+
+  background-color: rgb(222, 231, 255);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  border-radius: 0.3em;
+}
+.Answer-user-detail {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Answer-user-detail img {
+  width: 3em;
+  padding-right: 1em;
+}
+.Answer-top {
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.edit {
+  width: 1.2em;
+}
+
+.rewrite {
+  display: flex;
+  align-items: center;
+}
+.rewrite div {
+  padding-left: 1em;
+}
+
+.Answer-mid {
+  width: 90%;
+}
+
+.like {
+  width: 1.3em;
+  margin-right: 1em;
+}
+
+.Answer-bottom {
+  display: flex;
+  width: 90%;
+  justify-content: space-between;
+}
+.comments {
+  width: 1.3em;
+}
+.AddComment input {
+  width: 10em;
+  border-radius: 0.3em;
+  border: none;
+}
+.Answer-bottom div {
+  display: flex;
+  align-items: center;
+}
+
+.submit-answer {
+  border: 2px solid black;
+  border-radius: 0.4em;
+  padding: 0 1em 0 1em;
+  background-color: rgba(222, 231, 255, 0.281);
+}
+
+@media (max-width: 550px) {
+  .Answer {
+    width: 90vw;
+    height: 50vh;
+  }
+}

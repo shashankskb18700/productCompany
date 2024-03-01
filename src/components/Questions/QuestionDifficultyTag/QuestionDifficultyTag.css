@@ -1,0 +1,9 @@
+.question-difficulty-tag {
+  width: max-content;
+  padding: 0.5em;
+  color: black;
+  font-weight: 300;
+
+  margin-right: 0.5em;
+  background-color: rgb(152, 254, 167);
+}

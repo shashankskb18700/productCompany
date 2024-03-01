@@ -1,0 +1,21 @@
+.discussion {
+  width: 100vw;
+  height: 300vh;
+  background-color: white;
+}
+.question-ans {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  font-family: "Hanken Grotesk";
+  padding: 2em 0 2em 0;
+}
+
+.floating-button {
+  position: fixed;
+  top: 2em;
+  right: 1em;
+  border: 2px solid red;
+}

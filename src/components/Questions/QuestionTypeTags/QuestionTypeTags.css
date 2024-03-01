@@ -1,0 +1,8 @@
+.QuestionTypeTags {
+  width: max-content;
+  padding: 0.5em;
+  color: black;
+  font-weight: 300;
+  background-color: rgb(219, 239, 255);
+  margin-right: 0.5em;
+}

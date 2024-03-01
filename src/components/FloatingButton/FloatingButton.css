@@ -1,0 +1,60 @@
+.Floating-wrap {
+  height: 100vh;
+}
+
+.FloatingButton {
+  position: fixed;
+  bottom: 32px;
+  right: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: fit-content;
+  width: 0em;
+  height: min-content;
+  z-index: 999;
+}
+.FloatingButtonRotated {
+  position: fixed;
+  bottom: 32px;
+  right: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* flex-direction: ; */
+  width: 4em;
+  height: fit-content;
+  z-index: 999;
+  /* transform: rotate(270deg); */
+  transform: translateX(-64px);
+}
+
+.FloatingButtonRotated .FB-sub {
+  padding-left: 1em;
+}
+.FB-hide {
+  opacity: 0;
+  display: none;
+}
+
+.FB {
+  /* background-color: black; */
+  /* width: 1em;
+  height: 1em; */
+  /* position: fixed; */
+  /* bottom: 10em;
+  right: 25em; */
+  color: red;
+  transition-delay: 1s;
+}
+
+.FB img {
+  width: 2.5em;
+  height: 2.5em;
+}
+
+.FB-sub img {
+  width: 2em;
+  height: 2.5em;
+}
